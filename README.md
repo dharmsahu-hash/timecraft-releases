@@ -22,9 +22,11 @@ No installer, no admin password, no Python needed. (Not sure which Mac? Apple me
 - Reports and a day-by-day breakdown, exportable to CSV
 - A **Thought for today** (quote and tip), written insights that work offline, and optional AI insights with your own free key
 
-## Update
+## Update (your data is safe)
 
-Download the newest file and replace the old one. Your data is kept (it lives in your user folder, not in the app). **About & support → Check for a newer version** opens this page.
+Download the newest file and replace the old one. Your data lives in your user folder, not in the app, so nothing is lost; before a new version changes your data file it also saves a safety copy next to it (`timecraft.db.bak-…`).
+
+To be told about new versions, open **About & support** and tick **Check for updates once a day**. It only asks this page which version is newest, sends nothing about you, and never installs anything by itself: **Download** just opens this page. Off by default.
 
 | Where your data is | |
 |---|---|
@@ -32,7 +34,7 @@ Download the newest file and replace the old one. Your data is kept (it lives in
 | Mac | `~/Library/Application Support/TimeCraft/timecraft.db` |
 | Linux | `~/.local/share/TimeCraft/timecraft.db` |
 
-Back up or move to another computer by copying that one file.
+Back up or move to another computer by copying that one file, or use **Your data & usage → Back up now**. That screen also shows what is stored, lets you export every session to CSV, and copy a short summary to share with a friend.
 
 ## Tell us what you think
 
