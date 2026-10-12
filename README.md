@@ -1,6 +1,6 @@
 # TimeCraft by [KnowledgeWala](https://knowledgewala.com/?utm_source=timecraft&utm_medium=github&utm_campaign=cross_promo)
 
-**Free time & focus tracker for Windows, Mac and Linux.** Click a topic to start a timer, set hour goals, and see in plain words where your time really goes. Everything stays in one file on your computer: no account, no tracking, no ads.
+**Free time & focus tracker for Windows, Mac, Linux and Android.** Click a topic to start a timer, set hour goals, and see in plain words where your time really goes. Everything stays in one file on your computer: no account, no tracking, no ads.
 
 ## Download and install
 
@@ -16,6 +16,19 @@ Open **[Releases → latest](../../releases/latest)** and pick your file under *
 
 No admin password and no Python needed. Uninstalling (Windows **Settings → Apps**) never deletes your data. (Not sure which Mac? Apple menu → **About This Mac**: "Chip: Apple" = Apple silicon.)
 
+## Android
+
+Open **[TimeCraft for Android 1.2.1](../../releases/tag/android-v1.2.1)** and download `TimeCraft_1.2.1_android.apk` under **Assets**. It needs Android 8.0 or newer. (The **Releases → latest** link above goes to the computer versions; Android has its own release.)
+
+1. Download the file on your phone and open it.
+2. If Android asks, allow your browser (or Files app) to **install unknown apps**, then go back and tap **Install**. If Play Protect warns that the app is not from the Play Store, choose **More details → Install anyway**. TimeCraft is not on the Play Store.
+3. Open **TimeCraft**.
+
+**Update (your data is safe):** download the newer `.apk` and install it over the old one. Android keeps your data; before a new version changes the data file it also saves a safety copy next to it. Do not uninstall first: uninstalling deletes the data on the phone. Before any big change, use **Settings → Your data & usage → Back up now**.
+
+**Bring your computer data to the phone:** on the computer use **Your data & usage → Back up now**, copy the `.db` file to the phone, then **Settings → Import from desktop** in the app. Do this once; importing the same file again adds the sessions twice.
+
+To be told about new versions, open **Settings → About TimeCraft** and switch on **Check for updates once a day**. It only asks this page which Android version is newest, sends nothing about you and never installs anything; **Download** just opens this page. Off by default.
 ## What you get
 
 - One-click timers per topic, with pause and resume, and recovery if your computer shuts down mid-session
@@ -34,6 +47,7 @@ To be told about new versions, open **About & support** and tick **Check for upd
 | Windows | `%APPDATA%\TimeCraft\timecraft.db` |
 | Mac | `~/Library/Application Support/TimeCraft/timecraft.db` |
 | Linux | `~/.local/share/TimeCraft/timecraft.db` |
+| Android | Private to the app on the phone. Use **Your data & usage → Back up now** to copy it out. |
 
 Back up or move to another computer by copying that one file, or use **Your data & usage → Back up now**. That screen also shows what is stored, lets you export every session to CSV, and copy a short summary to share with a friend.
 
