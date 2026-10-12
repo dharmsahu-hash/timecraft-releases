@@ -8,12 +8,13 @@ Open **[Releases → latest](../../releases/latest)** and pick your file under *
 
 | Your computer | File | Steps |
 |---|---|---|
-| **Windows** 10 / 11 | `TimeCraft_<version>_windows_x64.exe` | 1. Download. 2. Double-click. 3. If Windows says "protected your PC": **More info → Run anyway**. |
+| **Windows** 10 / 11 (recommended) | `TimeCraft_<version>_windows_x64-setup.exe` | 1. Download. 2. Double-click. 3. If Windows says "protected your PC": **More info → Run anyway**. 4. **Next → Install → Finish**. No admin password. Adds a Start-menu entry and can add a desktop shortcut. |
+| Windows, no install | `TimeCraft_<version>_windows_x64.exe` | Double-click to run from anywhere (a USB stick, a folder). |
 | **Mac**, M1/M2/M3/M4 | `TimeCraft_<version>_macos_apple-silicon.zip` | 1. Download and double-click the zip. 2. Drag **TimeCraft** to Applications. 3. First time only: **right-click → Open → Open**. |
 | **Mac**, Intel | `TimeCraft_<version>_macos_intel.zip` | Same as above. |
 | **Linux** 64-bit (Ubuntu 22.04+ or similar) | `TimeCraft_<version>_linux_x64.tar.gz` | 1. Download. 2. Run `tar xzf TimeCraft_*_linux_x64.tar.gz`. 3. Run `./TimeCraft` (or double-click it). |
 
-No installer, no admin password, no Python needed. (Not sure which Mac? Apple menu → **About This Mac**: "Chip: Apple" = Apple silicon.)
+No admin password and no Python needed. Uninstalling (Windows **Settings → Apps**) never deletes your data. (Not sure which Mac? Apple menu → **About This Mac**: "Chip: Apple" = Apple silicon.)
 
 ## What you get
 
