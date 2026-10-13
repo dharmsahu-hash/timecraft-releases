@@ -18,7 +18,7 @@ No admin password and no Python needed. Uninstalling (Windows **Settings → App
 
 ## Android
 
-Open **[TimeCraft for Android 1.2.1](../../releases/tag/android-v1.2.1)** and download `TimeCraft_1.2.1_android.apk` under **Assets**. It needs Android 8.0 or newer. (The **Releases → latest** link above goes to the computer versions; Android has its own release.)
+Open **[TimeCraft for Android 1.2.2](../../releases/tag/android-v1.2.2)** and download `TimeCraft_1.2.2_android.apk` under **Assets**. It needs Android 8.0 or newer. (The **Releases → latest** link above goes to the computer versions; Android has its own release.)
 
 1. Download the file on your phone and open it.
 2. If Android asks, allow your browser (or Files app) to **install unknown apps**, then go back and tap **Install**. If Play Protect warns that the app is not from the Play Store, choose **More details → Install anyway**. TimeCraft is not on the Play Store.
